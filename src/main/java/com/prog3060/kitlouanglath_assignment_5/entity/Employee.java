@@ -1,11 +1,13 @@
 package com.prog3060.kitlouanglath_assignment_5.entity;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Date;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Employee {
     private int id;
     private String firstName;
